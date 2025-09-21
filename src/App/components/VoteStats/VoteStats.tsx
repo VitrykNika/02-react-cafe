@@ -4,7 +4,7 @@ import type { Votes } from '../../../types/votes';
 interface VoteStatsProps {
   votes: Votes;
   totalVotes: number;
-  positiveRate: number; // 0–100 (відсотки)
+  positiveRate: number; 
 }
 
 export default function VoteStats({ votes, totalVotes, positiveRate }: VoteStatsProps) {
